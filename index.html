@@ -53,7 +53,7 @@
                                     Ricevi notifiche di nuovi messaggi
                                 </div>
                                 <div class="-description">
-                                    <u @click="notificationOn()">{{notificationText}}</u>
+                                    <span class="notification-change" @click="notificationOn()">{{notificationText}}</span>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                                 <img :src="people.avatar" class="avatar-picture" />
                                 <div class="avatar-name-container">
                                     <div class="avatar-name">{{people.name}}</div>
-                                    <div class="avatar-description">{{item.date}}</div>
+                                    <div class="avatar-description"></div>
                                 </div>
                             </div>
                         </div>
