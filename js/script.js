@@ -45,7 +45,7 @@ new Vue(
                 },
                 {
                     name: 'Sveva',
-                    avatar: './img/avatar7.jpg',
+                    avatar: './img/avatar2.png',
                     visible: true,
                     messages: [
                         {
@@ -70,7 +70,7 @@ new Vue(
                 },
                 {
                     name: 'Giovanni',
-                    avatar: './img/avatar7.jpg',
+                    avatar: './img/avatar5.png',
                     visible: true,
                     messages: [
                         {
@@ -107,7 +107,7 @@ new Vue(
                 },
                 {
                     name: 'Claudia',
-                    avatar: './img/avatar7.jpg',
+                    avatar: './img/avatar6.png',
                     visible: true,
                     messages: [
                         {
@@ -132,7 +132,7 @@ new Vue(
                 },
                 {
                     name: 'Marco',
-                    avatar: './img/avatar7.jpg',
+                    avatar: './img/avatar2_big.png',
                     visible: true,
                     messages: [
                         {
