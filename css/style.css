@@ -1,0 +1,247 @@
+body {
+    background: linear-gradient(180deg, rgba(66,148,136,1) 0%, rgba(66,148,136,1) 15%, rgba(219,219,212,1) 15%);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.app-container {
+    max-height: 700px;
+    background-color: white;
+    margin-top: 24px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------- */
+
+i, img {
+    cursor: pointer;
+}
+
+main {
+    height: 700px;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    background-color: #eaeaea;
+    max-height: 700px;
+}
+
+.my-profile, .interlocutor-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+
+.avatar-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 12px;
+}
+
+.avatar-description {
+    font-size: 12px;
+    color: gray;
+}
+
+.pic-and-name {
+    display: flex;
+}
+
+.top-bar-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    color: #b5b5b5;
+    font-size: 20px;
+    margin-right: 24px;
+}
+
+.top-bar-icons>i:hover{
+    color: rgb(61, 61, 236);
+}
+
+/*-----------------------------------------------Aside----------------------------------------------------- */
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.notification-container {
+    background-color: #9fd8f8;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.notification-bar .avatar-description {
+    cursor: pointer;
+}
+
+.notification-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: #9fd8f8;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px;
+}
+
+.notification-description {
+    font-size: 14px;
+}
+
+.search-section {
+    display: flex;
+    padding: 12px 0;
+}
+
+.search-section input {
+    border: none;
+    width: 100%;
+    height: 36px;
+    padding: 0 12px;
+}
+
+.search-icon {
+    background-color: white;
+    color: #b7b9bb;
+    padding: 0 4px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-list {
+    background-color: white;
+    overflow-y: scroll;
+    height: 65%;
+}
+
+.contact-row {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(245,245,245,255);
+    cursor: pointer;
+}
+
+.contact-row:hover{
+    background-color: #ebe4e4;
+}
+
+/*----------------------------------------END ASIDE-------------------------------------------------------------- */
+
+/*---------------------------------------- MAIN-------------------------------------------------------------------- */
+.interlocutor-description {
+    font-size: 12px;
+    color: gray;
+}
+
+.new-message-space {
+    background-image: url(../img/wallpaper.jpg);
+    height: 76%;
+    overflow-y: scroll;
+}
+
+.my-message-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.my-message {
+    background-color: #dcf8c0;
+    padding: 10px;
+    margin-right: 24px;
+    margin-top: 24px;
+    border-radius: 10px;
+    height: 60px;
+}
+
+.interlocutor-message-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.interlocutor-message {
+    background-color: white;
+    padding: 10px;
+    margin-left: 24px;
+    margin-top: 24px;
+    border-radius: 10px;
+}
+
+.get-the-date {
+    color: gray;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.write-message-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #f2eeea;
+    position: sticky;
+    bottom: 0;
+}
+
+.write-message-section input {
+    width: 750px;
+    border: none;
+    height: 48px;
+    padding: 0 24px;
+}
+
+.emoji, .vocal {
+    padding: 0 4px;
+    font-size: 24px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6c7376;
+}
+/*---------------------------------------------- END MAIN-------------------------------------------- */
+
+/* -------------------------------------------------Delete Message-------------------------------------*/
+.options-menu{
+    font-size: 12px;
+    color: rgb(134, 134, 134);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 12px;    
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    position: absolute;
+}
+
+.options-menu p {
+    cursor: pointer;
+}
+
+.message-options {
+    color: gray;
+    font-size: 12px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: flex-end;
+}
